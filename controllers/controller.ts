@@ -89,6 +89,3 @@ for(i=0; i<diametro.length;i++){
         car.addWheel(wheel4);
         console.log(car);
 }
-
-
-
