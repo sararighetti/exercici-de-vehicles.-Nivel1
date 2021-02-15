@@ -46,10 +46,6 @@ function addWheel(){
     let numero;
     let resultado = document.getElementById("wheelInfo")! as HTMLInputElement;
 for(i=0; i<diametro.length;i++){
-    let diametro = new Array;
-    diametro.push(diametro1.valueAsNumber,diametro2.valueAsNumber,diametro3.valueAsNumber,diametro4.valueAsNumber);
-    let numero;
-    let resultado = document.getElementById("wheelInfo")! as HTMLInputElement;
     let diametroNoEmpty = /^(0*[1-9][0-9]*(\.[0-9]+)?|0+\.[0-9]*[1-9][0-9]*)$/.test(diametro1.value);
     let diametroNoEmpty2 = /^(0*[1-9][0-9]*(\.[0-9]+)?|0+\.[0-9]*[1-9][0-9]*)$/.test(diametro2.value);
     let diametroNoEmpty3 = /^(0*[1-9][0-9]*(\.[0-9]+)?|0+\.[0-9]*[1-9][0-9]*)$/.test(diametro3.value);
