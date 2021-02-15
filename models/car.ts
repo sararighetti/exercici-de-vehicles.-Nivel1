@@ -9,8 +9,7 @@ class Car{
         this.plate=plate;
         this.brand=brand;
         this.color=color;
-    }
-    
+    }    
     addWheel(wheel:Wheel):any{
         this.wheels.push(wheel);
     }

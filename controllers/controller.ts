@@ -4,7 +4,6 @@ function ocultarWheel(){
     ocultar.style.display="none";
 }
 
-
 let car:Car;
 // recojo los valores
 let plate = document.getElementById("plate")! as HTMLInputElement;
@@ -39,7 +38,7 @@ let diametro2 = document.getElementById("diametro2")! as HTMLInputElement;
 let diametro3 = document.getElementById("diametro3")! as HTMLInputElement;
 let diametro4 = document.getElementById("diametro4")! as HTMLInputElement;
 
-
+// AGREGO RUEDAS 
 function addWheel(){
     let diametro = new Array;
     diametro.push(diametro1.valueAsNumber,diametro2.valueAsNumber,diametro3.valueAsNumber,diametro4.valueAsNumber);
@@ -69,7 +68,6 @@ for(i=0; i<diametro.length;i++){
             return false;
         } 
     }
-
     for(numero of diametro){
         if(numero <0.4 || numero >2 ){
             alert("Wheel's diameter should be greater than 0.4 and less than or equal to 2!");  

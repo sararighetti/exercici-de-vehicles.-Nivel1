@@ -34,6 +34,7 @@ var diametro1 = document.getElementById("diametro1");
 var diametro2 = document.getElementById("diametro2");
 var diametro3 = document.getElementById("diametro3");
 var diametro4 = document.getElementById("diametro4");
+// AGREGO RUEDAS 
 function addWheel() {
     var diametro = new Array;
     diametro.push(diametro1.valueAsNumber, diametro2.valueAsNumber, diametro3.valueAsNumber, diametro4.valueAsNumber);
